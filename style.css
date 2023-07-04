@@ -14,7 +14,7 @@ img{
 
 
 #list{
-    width: 400px;
+    width: 360px;
     box-shadow: 1px 0px 1px 0px rgb(56, 56, 56);
 }
 
@@ -27,23 +27,26 @@ img{
 }
 
 #The-Jazz-Hop-Cafe{
-    background: linear-gradient(90deg, #AF7400 37.91%, rgba(175, 116, 0, 0.00) 100%);
+    background: linear-gradient(90deg, #EFDFA4 34.73%, rgba(239, 223, 164, 0.00) 100%);
+
 }
 
 #the-bootleg-boy{
-    background: linear-gradient(90deg, #0D1F7D 42.17%, rgba(13, 31, 125, 0.00) 100%);
+    background: linear-gradient(90deg, #0a154e 42.17%, rgba(13, 31, 125, 0.00) 100%);
 }
 
 #chillhop-music{
-    background: linear-gradient(90deg, #EFDFA4 34.73%, rgba(239, 223, 164, 0.00) 100%);
+    background: linear-gradient(90deg, #8b5e03 37.91%, rgba(175, 116, 0, 0.00) 100%);
+
 }
 
 #steezyasfuck{
-    background: linear-gradient(90deg, #EBE102 37.91%, rgba(235, 225, 2, 0.00) 100%);
+    background: linear-gradient(90deg, #449AEA 38.54%, rgba(68, 154, 234, 0.00) 100%);
+
 }
 
 #dream-shop{
-    background: linear-gradient(90deg, #F800DF 36.77%, rgba(248, 0, 223, 0.00) 100%);
+    background: linear-gradient(90deg, #f58feb 36.77%, rgba(248, 0, 223, 0.00) 100%);
 }
 
 #lofi-vibes{
@@ -51,15 +54,16 @@ img{
 }
 
 #little-soul{
-    background: linear-gradient(90deg, #449AEA 38.54%, rgba(68, 154, 234, 0.00) 100%);
+    background: linear-gradient(90deg, #cacaca 37.91%, rgba(235, 225, 2, 0.00) 100%);
+
 }
 
 #chilli-music{
-    background: linear-gradient(90deg, #FD6A00 35.94%, rgba(129, 52, 89, 0.00) 100%);
+    background: linear-gradient(90deg, #ecae29 35.94%, rgba(129, 52, 89, 0.00) 100%);
 }
 
 #tony{
-    background: linear-gradient(90deg, #813459 35.94%, rgba(129, 52, 89, 0.00) 100%);
+    background: linear-gradient(90deg, #50a140 35.94%, rgba(129, 52, 89, 0.00) 100%);
 }
 .card{
     width: 301px;
@@ -72,6 +76,10 @@ img{
     margin-top: 29px;
     margin-left: 20px;
 }
+.card:hover{
+    cursor: pointer;
+}
+
 #first-child{
     width: 60px;
     display: flex;
@@ -88,17 +96,20 @@ span{
     color: white;
 }
 
-#play-area{
+.play-area{
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    right: 30px;
+    right: 0px;
     bottom: 0px;
     top: 0px;
-    flex: 1;
+    width: 1520px;
     
 }
-video{
-    width: 900px;
+iframe{
+    width: 1000px;
+    height: 510px;
+    border-radius: 10px;
+  
 }
