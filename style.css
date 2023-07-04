@@ -6,7 +6,10 @@ body{
 
 img{
     height: 50px;
+    width: 50px;
     border-radius: 25px;
+    object-fit: cover;
+    object-position: -20% 0;
 }
 
 
@@ -14,11 +17,54 @@ img{
     width: 400px;
     box-shadow: 1px 0px 1px 0px rgb(56, 56, 56);
 }
+
+#lofi-girl{
+    background: linear-gradient(270deg, rgba(254, 0, 0, 0.00) 0%, #F00 56.25%); 
+}
+
+#lofi-boy{
+    background: linear-gradient(90deg, #8D00CF 37.50%, rgba(141, 0, 207, 0.00) 100%);
+}
+
+#The-Jazz-Hop-Cafe{
+    background: linear-gradient(90deg, #AF7400 37.91%, rgba(175, 116, 0, 0.00) 100%);
+}
+
+#the-bootleg-boy{
+    background: linear-gradient(90deg, #0D1F7D 42.17%, rgba(13, 31, 125, 0.00) 100%);
+}
+
+#chillhop-music{
+    background: linear-gradient(90deg, #EFDFA4 34.73%, rgba(239, 223, 164, 0.00) 100%);
+}
+
+#steezyasfuck{
+    background: linear-gradient(90deg, #EBE102 37.91%, rgba(235, 225, 2, 0.00) 100%);
+}
+
+#dream-shop{
+    background: linear-gradient(90deg, #F800DF 36.77%, rgba(248, 0, 223, 0.00) 100%);
+}
+
+#lofi-vibes{
+    background: linear-gradient(90deg, #00C696 35.35%, rgba(0, 198, 150, 0.00) 100%);
+}
+
+#little-soul{
+    background: linear-gradient(90deg, #449AEA 38.54%, rgba(68, 154, 234, 0.00) 100%);
+}
+
+#chilli-music{
+    background: linear-gradient(90deg, #FD6A00 35.94%, rgba(129, 52, 89, 0.00) 100%);
+}
+
+#tony{
+    background: linear-gradient(90deg, #813459 35.94%, rgba(129, 52, 89, 0.00) 100%);
+}
 .card{
     width: 301px;
     height: 65px;
     border-radius: 18px;
-    background: linear-gradient(270deg, rgba(254, 0, 0, 0.00) 0%, #F00 56.25%);
     display: flex;
     flex-direction: row;
     align-items: center;
